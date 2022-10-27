@@ -15,3 +15,5 @@
 #### - On Your Network:  http://192.***.*.**:5000 para hacer pruebas desde cualquier dispositivo movil
 
 #### 6. Al abrir la aplicación, en la barra de navagación del navagador debe aparecer el icono de instalar aplicación  
+
+#### Instalar service-worker-update $ npm install --save @3m1/service-worker-updater --legacy-peer-deps
