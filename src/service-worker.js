@@ -72,12 +72,13 @@ self.addEventListener('message', (event) => {
 // Any other custom service worker logic can go here.
 
 // Aquí vamos a poner el código custom
-const version = "app-compra-v7";
+// const version = "app-compra-v7";
 
 self.addEventListener("install", event => {
-  console.log(`Instalando version ${version}`);
+  console.log(`Instalando una nueva versión`);
+  self.registration.showNotification("Nueva versión de la App!", { body: "Istalar ahora" });
 });
 
 self.addEventListener("activate", event => {
-  console.log(`¡Activada version ${version}!`);
+  console.log(`¡Activada la nueva versión`);
 });

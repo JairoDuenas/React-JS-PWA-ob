@@ -21,7 +21,7 @@ const ListaCompras = (props) => {
 
   return (
     <div className='header'>
-      <h1>Proyecto PWA - Lista de la compra V7</h1>
+      <h1>Proyecto PWA - Lista de la compra</h1>
       {newServiceWorkerDetected && <div style={{ background: 'grey', width: '100px' }}>
         <h3>¡Nueva actualización!</h3>
         <button onClick={onLoadNewServiceWorkerAccept} >¡Actualizar¿</button>
