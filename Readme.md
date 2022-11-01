@@ -33,3 +33,16 @@ $ npm run build , para crear la versión de producción.
 6. Se crea una notificación push automática, cada vez que haya una nueva versión disponible con ->  
 self.registation.showNotification(title, {body})
 ejecutar el comando npm run server-prod
+
+-----------------------------------------------
+
+### Creando servidor sencillo
+1. Instalar express dentro la carpeta server.
+  - $ cd server
+  - $ npm i express cors
+  - Crear index.js y configurar
+  - Abrir servidor y verificar el status: localhost:8000
+2. Simular la subcripción de un cliente pueda ser almacenada en una base de datos
+3. Instalar axios
+4. Intalar web-push en el servidor
+  -   npm i web-push
